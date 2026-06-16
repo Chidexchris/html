@@ -161,4 +161,49 @@ svg{
     justify-content: center;
     align-items: center;
     gap: 50px;
+
+}
+.disp-h1{
+    color: white;
+    font-size: 3rem;
+}
+.disp-ul{
+    list-style: none;
+    gap: 20px;
+}
+.disp-li{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 3rem;
+}
+.disp-text p{
+    font-size: 20px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 20px;
+}
+
+.counter span{
+    color: rgb(126, 125, 125);
+    font-size: 5rem;
+}
+.counter h1{
+    color: white;
+    font-size: 5rem;    
+}
+.line{
+    width: 110px;
+    height: 5px;
+    background-color: rgb(126, 125, 125);
+    margin-top:10px;
+
 }
