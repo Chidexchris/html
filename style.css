@@ -207,3 +207,42 @@ svg{
     margin-top:10px;
 
 }
+.pr-text{
+    text-align: center;
+}
+
+.pr-text h2{
+    margin: 0px;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+.pr-grid{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+}
+.pr-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    padding: 1rem;
+}
+.pr-card h3{
+    font-size: 2rem;
+    margin: 0px;
+}
+.pr-card p{
+    font-size: 1rem;
+    color: black;
+}
+.icons svg{
+    width: 20px;
+    height: 20px;
+}
+.pr-img{
+    clip-path: circle(50%);
+}
