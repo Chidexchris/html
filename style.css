@@ -246,3 +246,30 @@ svg{
 .pr-img{
     clip-path: circle(50%);
 }
+.title{
+    font-size: 3rem;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    
+
+}
+.test{
+    display: flex;
+    gap: 30px;
+}
+.test-card{
+    width: 100%;
+    text-align: center;
+    /* padding: 40px; */
+}
+.test-txt{
+    background-color: rgb(51, 49, 49);
+    line-height: 30px;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+
+.moni{
+    padding: 20px 5rem;
+}
