@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    background-color: blue;
+    margin: 0;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 30px;
+    color: white;
+}
+.links:hover{
+    color: rgb(154, 154, 237);
+}
+.logo{
+    font-size:40px;
+    color: white;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(img/hero_3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+span{
+    color: rgb(0, 0, 255);
+}
