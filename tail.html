@@ -48,10 +48,10 @@
 <div class=" bg-gray-900 bg-[url(img/fav.avif)] bg-cover bg-center h-screen py-30 px-20 bg-blend-overlay flex justify-between">
   <div class="text-white space-y-5">
     <p class="">this is a website </p>
-    <h1 class="text-4xl">Welcome to Our Website</h1>
+    <h1 class="text-4xl" id="welcome-section">Welcome to Our Website</h1>
     <p>lore ipsum dolor sit amet  lore ipsum dolor sit amet</p>
     <div class="flex gap-x-5"> 
-      <button class="bg-[#353029] py-3 px-5 rounded hover:bg-[#e8961b]">Book us </button>
+      <button class="bg-[#353029] py-3 px-5 rounded hover:bg-[#e8961b]" onclick="document.getElementById('welcome-section').style='display:none'">Book us </button>
       <button class="border py-3 px-5 hover:bg-[#a0988d] rounded">Explore </button>
     </div>
   </div>
@@ -62,14 +62,20 @@
 </div>
 
 </section>
+<section class="flex gap-x-20 p-50">
+  <button class="border  w-200" onclick="document.getElementById('image').src='img/hero_3.jpg'"> swap image</button>
+
+  <img src="img/fav.avif" alt="image" id="image" class="w-50 h-50">
+  <button class="border  w-200" onclick="document.getElementById('image').src='img/fav.avif'"> swap back </button>
+</section>
   
-<script>
+<!-- <script>
   const menuBtn = document.getElementById("menu-btn");
   const mobileMenu = document.getElementById("mobile-menu");
 
   menuBtn.addEventListener("click", () => {
     mobileMenu.classList.toggle("hidden");
-  });
-</script>
+  }); 
+</script> -->
 </body>
 </html>
